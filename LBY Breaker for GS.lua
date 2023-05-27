@@ -29,7 +29,7 @@ local lby = {
     desync = ui_new_slider("aa", "anti-aimbot angles", "Desync", 0, 65, 63),
     roll_enabled = ui_new_hotkey("AA", "Anti-aimbot angles", "\aD6BE73FFEnabled Roll"),
     roll_inverter = ui_new_hotkey("AA", "Anti-aimbot angles", "- Roll inverter"),
-    roll = ui_new_slider("aa", "anti-aimbot angles", "Roll", -50, 50, 0)
+    roll = ui_new_slider("aa", "anti-aimbot angles", "Roll", -45, 45, 0)
 }
 
 local micro_move = function(cmd)
